@@ -51,6 +51,7 @@ To use this project, you'll need:
 - `help` - Prints the list of available commands.
 
 ### Example Output
+
 Open the serial monitor and send the string "help". The output will be something similar to this: 
 ![image](https://github.com/user-attachments/assets/56856510-5748-4e6f-952b-7d8c3cd3bda5)
 
