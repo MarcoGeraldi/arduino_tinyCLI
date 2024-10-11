@@ -49,7 +49,11 @@ To use this project, you'll need:
 - `led -on` - Turns on the LED (you will need to define what "LED ON" does in your setup).
 - `led -off` - Turns off the LED.
 - `help` - Prints the list of available commands.
-  
+
+### Example Output
+Open the serial monitor and send the string "help". The output will be something similar to this: 
+![image](https://github.com/user-attachments/assets/56856510-5748-4e6f-952b-7d8c3cd3bda5)
+
 ### Command List
 You can define commands using the following structure:
 ```cpp
@@ -74,9 +78,10 @@ void controlLED(String params) {
 }
 ```
 
+
 You can extend the commands array to add more commands as needed.
 
-### File Structure
+## File Structure
 - `main.cpp`: Contains the main Arduino sketch with the `setup()` and `loop()` functions, along with the custom commands you define.
 - `tinyCLI.cpp`: Implements the `tinyCLI` class, including input processing, command execution, and the help function.
 - `tinyCLI.h`: The header file where the `tinyCLI` class is declared, along with the command structure and function signatures.
