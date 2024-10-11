@@ -53,7 +53,7 @@ To use this project, you'll need:
 ### Example Output
 
 Open the serial monitor and send the string "help". The output will be something similar to this: 
-![image](https://github.com/user-attachments/assets/56856510-5748-4e6f-952b-7d8c3cd3bda5)
+![image](https://github.com/user-attachments/assets/0ca1dfc7-ecca-48d4-aff7-ba842b16724d)
 
 ### Command List
 You can define commands using the following structure:
